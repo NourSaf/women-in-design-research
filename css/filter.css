@@ -1,0 +1,59 @@
+#itemWrapper{
+  display: flex;
+}
+
+.cliked {
+  background-color: rgb(67, 117, 255);
+  color:white;
+}
+
+.unCliked {
+  background-color: rgb(241, 241, 241);
+  color: rgb(0, 0, 0);}
+
+button{
+  margin-right: 2px;
+  background-color:rgb(241, 241, 241);
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: inset;
+  color: rgb(22, 22, 22);
+}
+
+#itemWrapper{
+  margin-top:15px ;
+  gap: 20px;
+}
+
+.boxItem{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  /* margin-right: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  margin: 2px;
+}
+
+.boxItem:last-child{
+  margin-right: 0;
+}
+
+.boxItem > div {
+  color: white;
+}
+
+/* Add a light grey background on mouse-over */
+button:hover {
+  background-color: rgb(181, 181, 181);
+  color: rgb(255, 255, 255);
+}
+
+

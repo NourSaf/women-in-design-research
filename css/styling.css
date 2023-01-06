@@ -1,0 +1,195 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mynavibar{
+  width: 100vw;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgb(255, 255, 255);
+  outline: #000000;
+  display: flex;
+  gap: 30px;
+  padding: 20px 25px;
+}
+
+.mainContainer{
+  padding-top:65px;
+  padding-left: 10px;
+}
+
+.mynavibar a{
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.mynavibar a:hover{
+  color: rgb(125, 125, 125);
+} 
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: calc(4vw + 10px) ;
+  font-weight: 500;
+}
+
+ .detext{
+  white-space: pre;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-size: 30px;
+}
+
+.doyou{
+  font-weight: bolder;
+}
+
+p .answer{
+  display: none;
+  font-weight: 900;
+}
+
+p .question{
+  font-weight: 900;
+}
+
+.qaWrapper:hover .question{
+  display: none;
+}
+.qaWrapper:hover .answer{
+  display: inline;
+}
+
+/* p:hover .question{
+  display: none;
+}
+
+p:hover .answer{
+  display: inline;
+  
+} */
+
+.slideshow-container {
+  position: fixed;
+  top:50%;
+  left:50%;
+  width: 100vw;
+  transform: translate(-50%,-50%);
+ 
+}
+
+.mySlides {
+  width: auto;
+  height : auto;
+  display: none;
+  padding: 100px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  cursor:e-resize;
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.adabtn{
+  margin-right: 2px;
+  background-color:rgb(252, 138, 138);
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: inset;
+  color: rgb(255, 255, 255);
+}
+
+.adabtn:hover {
+  background-color: rgb(4, 147, 230);
+  color: rgb(255, 255, 255);
+}
+
+.Murielbtn{
+  margin-right: 2px;
+  background-color:rgb(0, 81, 255);
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: inset;
+  color: rgb(255, 255, 255);
+}
+
+.Murielbtn:hover {
+  background-color: rgb(205, 255, 111);
+  color: black;
+}
+
+.debtn a{
+  text-decoration: none;
+}
+
+.debtn .a:link{
+  text-decoration: none;
+
+}
+.debtn .a:visited{
+  text-decoration: none;
+}
+
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  position:fixed;
+  text-align: center;
+  /* padding: 50px; */
+  /* background: rgb(255, 255, 255); */
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(140, 140, 140);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
