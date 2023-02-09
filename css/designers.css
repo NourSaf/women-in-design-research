@@ -1,3 +1,4 @@
+
 .grid{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -5,42 +6,91 @@
     padding: 0px;
 }
 
-.grid {
-    background-color:rgb(255, 255, 255);
-    padding: 10 0;
-    font-size: 20px;
-  }
-
-
-.gridcontent-left {
-    color: rgb(190, 34, 34);
-    padding: 10px;
-    font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-    /* position: fixed; */
-    height: 500px;
-    overflow-y: scroll;
-    float: left;
-
+.grid{
+    width: 100%;
+    height: auto;
 }
-.gridcontent-right {
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    border-radius: 10px;
-
-    height: 400px;
-    overflow-y: scroll;
-    float: right;
-
-}
-
 
 
 img{
-    width: 500px;
-    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 1vw;
 }
 
+.resTexta {
+    text-decoration: none;
+    color: #000000;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1vw + 5px);
+    
+}
+
+.resText{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: calc(1vw + 5px);
+    color: #000000;
+    
+}
+
+a .resTexta:link {
+    text-decoration: none;
+}
+a .resTexta:visited {
+    text-decoration: none;
+}
+
+.detext{
+    /* white-space: pre; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: calc(1vw + 10px);
+  
+  }
+
+.resTexta:hover{
+    text-decoration: underline;
+
+}
+
+#designers {
+    position: fixed;
+}
+
+div.gridcontent-left{
+    width: 100%;
+    height:800px;
+    overflow: scroll;
+}
+div.gridcontent-right{
+    width: 100%;
+    height:750px;
+    overflow: scroll;
+}
+
+#links{
+    margin-top: 1.8vw;
+}
+
+
+.imgs{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#btnsscrol{
+    padding-left: 300px;
+}
+
+
+.adabtn {
+    margin-right: 2px;
+    background-color:rgb(255, 255, 255);
+    border-color: #000000;  
+    padding: 10px;
+    /* box-shadow: inset; */
+    color: rgb(0, 0, 0);
+}

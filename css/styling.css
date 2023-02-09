@@ -3,22 +3,58 @@
   margin: 0px;
 }
 
+@font-face {
+  font-family: 'Ortica';
+  src: url(../Fonts/Ortica/Ortica-Bold.otf);
+  src: url(../Fonts/Ortica/Ortica-Light.otf);
+}
+
+body{
+  background-color: #FAF8EE;
+}
+
+.bgimg{
+  position: fixed;
+  /* width: calc(50% + 20vw);
+  height: calc(50% + 40vw); */
+
+}
+
+.img{
+  width: calc(100% + 20vw);
+  height: calc(010% + 40vw);
+}
+
+
+
 .mynavibar{
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   position: fixed;
-  top:0;
-  left:0;
-  background-color: rgb(255, 255, 255);
-  outline: #000000;
+  padding: 20px 60px;
+
+}
+
+.leftnav{
+  width: 25%;
   display: flex;
+  float: left;
+}
+
+.rightnav{
+  width: 25%;
+  display: flex;
+  float: right;
+  text-align: right;
   gap: 30px;
-  padding: 20px 25px;
+
+
 }
 
 .mainContainer{
   padding-top:65px;
-  padding-left: 10px;
+  padding-left:4.5vw;
+  padding-right:4.5vw;
 }
 
 .mynavibar a{
@@ -28,54 +64,12 @@
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  
 }
 
 .mynavibar a:hover{
   color: rgb(125, 125, 125);
+  text-underline-position: below;
 } 
-
-p{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: calc(4vw + 10px) ;
-  font-weight: 500;
-}
-
- .detext{
-  white-space: pre;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000000;
-  font-size: 30px;
-}
-
-.doyou{
-  font-weight: bolder;
-}
-
-p .answer{
-  display: none;
-  font-weight: 900;
-}
-
-p .question{
-  font-weight: 900;
-}
-
-.qaWrapper:hover .question{
-  display: none;
-}
-.qaWrapper:hover .answer{
-  display: inline;
-}
-
-/* p:hover .question{
-  display: none;
-}
-
-p:hover .answer{
-  display: inline;
-  
-} */
 
 .slideshow-container {
   position: fixed;
@@ -83,15 +77,62 @@ p:hover .answer{
   left:50%;
   width: 100vw;
   transform: translate(-50%,-50%);
- 
 }
 
 .mySlides {
+  position: relative;
   width: auto;
   height : auto;
   display: none;
   padding: 100px;
 }
+
+/* .img{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+} */
+
+.designerP{
+  font-family: Ortica;
+  font-size: calc(4vw + 10px) ;
+  font-weight: 500;
+}
+
+.doyou{
+font-weight: bold;
+}
+
+.text{
+font-weight: 100; 
+ animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  
+}
+
+.designerP .answer{
+  display: none;
+  font-weight: 900;
+}
+
+.designerP .question{
+  font-weight: 900;
+}
+
+.qaWrapper:hover .question{
+  display: none;
+}
+
+.qaWrapper:hover .answer{
+  display: inline;
+}
+
+
 
 
 .prev, .next {
@@ -122,14 +163,24 @@ p:hover .answer{
   color: white;
 }
 
-.adabtn{
+.debtn{
+  font-family: Ortica;
   margin-right: 2px;
-  background-color:rgb(252, 138, 138);
-  border: none;
-  border-radius: 30px;
-  padding: 20px;
+  background-color:rgb(255, 255, 255,0);
+  border-color: #000000;  
+  padding: 10px;
   box-shadow: inset;
-  color: rgb(255, 255, 255);
+  color: rgb(22, 22, 22);
+}
+
+.MurielCooper_link{
+  font-family: Ortica;
+  margin-right: 2px;
+  background-color:rgb(255, 255, 255,0);
+  border-color: #000000;  
+  padding: 10px;
+  box-shadow: inset;
+  color: rgb(22, 22, 22);
 }
 
 .adabtn:hover {
@@ -193,3 +244,13 @@ p:hover .answer{
   background-color: #717171;
 }
 
+.linkedbtn{
+  color: white;
+}
+.linkedbtn:hover{
+  color: black;
+}
+
+p{
+  font-size: 2vw;
+}
