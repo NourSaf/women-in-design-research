@@ -1,0 +1,30 @@
+.mynavibar{
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    padding: 20px 100px ;
+}
+
+.mynavibar a{
+    font-family: 'AUTHENTIC Sans';
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    font-size: var(--anav);
+  }
+  
+  .mynavibar a:hover{
+    color: rgb(181, 181, 181);
+  }
+
+  .leftnav{
+    width: 25%;
+    display: flex;
+    float: left;
+  }
+  
+  .rightnav{
+    display: flex;
+    float: right;
+    gap: 30px;
+  }

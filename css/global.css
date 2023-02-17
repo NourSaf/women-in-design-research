@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+  
+@font-face {
+    font-family: 'Ortica';
+    src: url(../Fonts/Ortica/Ortica-Light.otf);
+    font-family: 'Ortica-bold';
+    src: url(../Fonts/Ortica/Ortica-Bold.otf);
+    font-family: 'AUTHENTIC Sans' ;
+    src: url(../Fonts/authentic/AUTHENTICSans-130.otf);
+    
+    }
+  
+body{
+    background-color: var(--bgcolor);
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* a{
+    text-decoration: none;
+} */
+
+body{
+    background-color: var(--text-c1);
+}
+
+.mainContainer{
+    padding-top:65px;
+    padding-left:4.5vw;
+    padding-right:4.5vw;
+  }

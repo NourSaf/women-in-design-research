@@ -5,145 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-    <script language="javascript" src="libraries/p5.dom.js"></script>
-
-    <link rel="stylesheet" href="../css/styling.css">
-    <link rel="stylesheet" href="../css/filter.css">
-    <link rel="stylesheet" href="../css/designers.css">
+  
+    
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <link rel="stylesheet" href="../css/designers.css"> -->
     <title>Infotmation Design (she/her)</title>
 </head>
 
 <body>
-  <div class="mynavibar" id="navibar">
-    <div class="leftnav"><a href="../index.html"> INFORMATIONDESIGN (SHE/HER)</a></div>
-    <div class="rightnav">
-    <a   href="./time.html">TIME</a>
-    <a   href="../html/tags.html">OVERVIEW</a>
-    <a   href="../html/designers.html">DESIGNERS</a>
-  </div>
-  </div>
-<main class="mainContainer">
- 
-  <!-- Grid -->
-  <div class="grid">
-    <div class="gridcontent-left">
-      
-          <p class="detext"> 
-            Ada Lovelace
-            
-            <br>
-            <br>
-            <br>
-         
 
-          1815	
-          1852	
-          London, England
-          British	
-          Died in London
-          Homeschooling
-          she was privately educated in mathematics and science
-          Mathematician (many awards, medals and a programming 
-          language are named after her) The first computer 
-          programmer – She developed a computer programming
-          system (algorithm) without computers being invented
-          yet most known for her work on Charles Babbage's proposed 
-          mechanical general-purpose computer, the Analytical Engine.
 
-          19th Century, Pioneer, Mathematician 
-            
-        <br><br>
-        Already at a young age, Ada was very curious, 
-        talented and interested in science. At the age of 12 
-        she studied birds over years and wanted to 
-        invent a flying machine.
-        <br><br>
-        Due to the fact that women in the 19th century 
-        did not have the same rights as men and were not
-        allowed to enter universities or academic libraries, 
-        her husband William King helped her by copying 
-        articles in the library."
-                  </p>  
-                  <br>
-                 
-                    <p class="detext">  
-                      1815	
-                      1852	
-                      London, England
-                      British	
-                      Died in London
-                      Homeschooling
-                      she was privately educated in mathematics and science
-                      Mathematician (many awards, medals and a programming 
-                      language are named after her) The first computer 
-                      programmer – She developed a computer programming
-                      system (algorithm) without computers being invented
-                      yet most known for her work on Charles Babbage's proposed 
-                      mechanical general-purpose computer, the Analytical Engine.
-              
-                      19th Century, Pioneer, Mathematician     
-                    <br>
-                    <br>
-                    Already at a young age, Ada was very curious, 
-                    talented and interested in science. At the age of 12 
-                    she studied birds over years and wanted to 
-                    invent a flying machine.
-                    <br>
-                    Due to the fact that women in the 19th century 
-                    did not have the same rights as men and were not
-                    allowed to enter universities or academic libraries, 
-                    her husband William King helped her by copying 
-                    articles in the library."</p>
-                    <br>
-                    <p class="resText">Links</p>
-                    <div class="links">
-                        <a class="resTexta" href="https://www.youtube.com/watch?v=fEmKuJ8XL68 "> Ada Lovelace | Draw My Life </a>  <br>
-                        <a class="resTexta" href="https://www.companisto.com/de/blog/pionier-serie/ada-lovelace-oder-wie-der-erste-algorithmus-entstand-199"> Website</a>   <br>
-                        <a class="resTexta" href="https://www.youtube.com/watch?v=fEmKuJ8XL68 "> Fact 1</a>  <br>
-                        <a class="resTexta" href="https://www.companisto.com/de/blog/pionier-serie/ada-lovelace-oder-wie-der-erste-algorithmus-entstand-199">  Fact 2</a>  
-                         <div class="debtn"> <br>
-                          <button class="adabtn">Historical</button>
-                          <button class="adabtn">Science</button>
-                          <button class="adabtn">Technology</button>
-                        </div>
-                      </div>
-                      
-               
-                
-    </div>    
- 
-    <div class="gridcontent-right" >
-      <div class="debtn">
-        <a href="markus-spiske-NPVuCkIlqd4-unsplash copy.jpg" download>
-        <button class="adabtn">Historica
-        </button>
-      </a>
-
-        <a download="Ada_Lovelace_portrait.jpg" href="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" title="Ada Image">
-        <button class="adabtn">Historica_01
-        </button>
-      </a>
-        <button class="adabtn">Science</button>
-        <button class="adabtn">Technology</button>
-      </div>
-      <div class="img"> 
-        <a href="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" download>
-        <img class="imgs"src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" alt="Ada Portrait">
-        </a>
-        <img class="imgs" src="https://www.companisto.com/assets/1511883152_Ada_lovelace.jpg" alt="">
-        <img  class="imgs" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg" alt="">
-        <img  class="imgs" src="https://www.companisto.com/assets/medium-editor/1662089086395671062.jpeg" alt="">
-      </div> 
+  <a class="right" onclick="plusSlides(1)">&#10095;</a>
+  <a class="left" onclick="plusSlides(-1)">&#10094;</a>
+  
+  <section class="mynavibar" id="navibar">
+    <div class="leftnav">
+        <a href="../index.html">Informationdesign (She/her)</a>
     </div>
-   
-  
-  </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+    </label>
+    <div class="rightnav">
+        <a   href="./time.html">Time</a>
+        <a   href="../html/tags.html">Overview</a>
+        <a   href="../html/designers.html">Portrait</a>
+        <a   href="../html/About.html">About</a>
+    </div>
+</section>
 
   
-</main>
-  <script src="./js/functions.js"></script> 
-  <script src="./js/01_filter.js"></script> 
+  <div class="mainContainerde">
+    <div class="main">
+    </div>
+  </div>
+
+  <div class="deisgnerlist">
+  </div>
   
+  <script src="./js/navbar.js"></script>
+  <script src="../js/designer-slidercontent.js"></script>
+  <script src="../js/slider02.js"></script>
+  
+
+
 </body>
 </html>
+
+ 
