@@ -21,6 +21,7 @@ body{
   width: auto;
   padding-top: 90px;
   padding-left: 100px;
+  overflow-x: scroll;
 }
 
 .timelinemain2{
