@@ -149,6 +149,9 @@ let designerList = designers;
 const activeperiodUniqueList = [...(new Set(designers.map((e) => e.activeperiod)))];
 const specificationUniqueList = [...(new Set(designers.map((e) => e.specification)))];
 const mainfieldUniqueList = [...(new Set(designers.map((e) => e.mainfield)))];
+console.log(specificationUniqueList)
+console.log(activeperiodUniqueList)
+// console.log(mainFieldUniqueList)
 
 const itemWrapper = document.querySelector("#itemWrapper");
 const filterBtnContainer = document.querySelector("#filterbtn");
