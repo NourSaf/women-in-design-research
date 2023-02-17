@@ -17,11 +17,10 @@ body{
 
 
 .timelinemain1{
-  height: 1080px;
-  width: 3200px;
+  height: 100%;
+  width: auto;
   padding-top: 90px;
   padding-left: 100px;
-  overflow-x: scroll;
 }
 
 .timelinemain2{
@@ -29,9 +28,8 @@ body{
 }
 
 .timeline1{
-  height: 90%;
-  width: 3200px;
-  overflow-x:scroll;
+  position: absolute;
+  height: 80%;
 }
 
 
@@ -51,18 +49,18 @@ body{
 
 .btn1{
   padding-top: 5px;
-  margin-top: 170px;
+  margin-top: 100px;
 }
 
 .btn2{
   padding-top: 110px;
-  margin-top: 190px;
+  margin-top: 100px;
 
 }
 
 .btn3{
   padding-top: 130px;
-  margin-top: 190px;
+  margin-top: 100px;
 
 }
 .tagabout{
