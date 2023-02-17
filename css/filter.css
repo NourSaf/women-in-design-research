@@ -2,6 +2,10 @@
 @import "./colors.css";
 @import "./global.css";
 
+body{
+  background-color: #cfb327;
+}
+
 .cliked {
   background-color: rgba(204, 228, 25, 0);
   color:rgb(0, 0, 0);
