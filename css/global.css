@@ -5,24 +5,29 @@
 }
   
 @font-face {
-    font-family: 'Ortica';
-    src: url(../Fonts/Ortica/Ortica-Light.otf) format("otf") ;
-    src: url(../Fonts/Ortica/web/Ortica-Light.woff2) format("woff2");
-    src: url(../Fonts/Ortica/web/Ortica-Light.woff) format("woff");
+    font-family: "Ortica";
+    src: url("../Fonts/Ortica/Ortica-Light.otf") ;
+    src: url("../Fonts/Ortica/web/Ortica-Light.woff") format('woff');
+    src: url("../Fonts/Ortica/web/Ortica-Light.woff2") format('woff2');
     
     font-family: 'Ortica-bold';
-    src: url(../Fonts/Ortica/Ortica-Bold.otf);
-    src: url(../Fonts/Ortica/web/Ortica-Bold.woff2) format("woff2");
-    src: url(../Fonts/Ortica/web/Ortica-Bold.woff) format("woff");
+    src: url("../Fonts/Ortica/Ortica-Bold.otf");
+    src: url("../Fonts/Ortica/web/Ortica-Bold.woff") format("woff");
+    src: url("../Fonts/Ortica/web/Ortica-Bold.woff2") format("woff2");
 
     font-family: 'AUTHENTIC Sans' ;
     src: url(../Fonts/authentic/AUTHENTICSans-130.otf);
-    
-    @font-face {
-  font-family: 'Ortica';
-  src: url(../Fonts/Ortica/Ortica-Bold.otf);
-  src: url(../Fonts/Ortica/Ortica-Light.otf);
-}
+
+   
+    font-family: 'subtitle';
+    src: url(../Fonts/authentic/AUTHENTICSans-60.otf);
+
+
+    font-family: 'lefttext';
+    src: url(../Fonts/authentic/AUTHENTICSans-90.otf);
+   
+
+   
     }
   
 body{

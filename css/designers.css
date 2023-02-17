@@ -2,14 +2,7 @@
 @import "./colors.css";
 @import "./sizes.css";
 
-@font-face {
-    font-family: 'subtitle';
-    src: url(../Fonts/authentic/AUTHENTICSans-60.otf);
-    font-family: 'lefttext';
-    src: url(../Fonts/authentic/AUTHENTICSans-90.otf);
-    
-    
-};
+
 
 
 .mainContainerde{

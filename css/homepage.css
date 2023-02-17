@@ -25,13 +25,13 @@
   width: auto;
   height : auto;
   display: none;
-  padding: 195px;
+  padding: 100px;
 }
 
 .designerP{
-  font-family: 'Ortica';
+  font-family: "Ortica";
   font-size: var(--p_slider) ;
-  
+  font-weight: 500;
 }
 
 .designerP .question{
