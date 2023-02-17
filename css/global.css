@@ -6,7 +6,7 @@
   
 @font-face {
     font-family: 'Ortica';
-    src: url("../Fonts/Ortica/Ortica-Light.otf") ;
+    src: url("../Fonts/Ortica/Ortica-Light.otf") format("otf") ;
     src: url("../Fonts/Ortica/web/Ortica-Light.woff2") format("woff2");
     src: url("../Fonts/Ortica/web/Ortica-Light.woff") format("woff");
     
