@@ -1,0 +1,169 @@
+@import "./index.css";
+@import "./colors.css";
+@import "./global.css";
+
+.cliked {
+  background-color: rgba(204, 228, 25, 0);
+  color:rgb(0, 0, 0);
+}
+
+.unCliked {
+  background-color: var(--bgcolor) ;
+  color: rgb(0, 0, 0);
+}
+
+.boxItem{
+  font-size: 7vw;
+  text-align: center;
+  font-family: Ortica;
+  top:50%;
+  left:50%;
+  width: 90vw;
+}
+
+.boxItem:last-child{
+  margin-right: 0;
+}
+
+.boxItem > div {
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+cursor: pointer;
+background-color: transparent;
+}
+
+#filterbtn{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.btngrid{
+  display: grid;
+  grid-template-columns: 10% 10% 10% ; 
+  gap: 10px;
+  justify-content: center;
+  width:auto;
+}
+
+button{
+  font-family: 'AUTHENTIC Sans';
+  font-size: 15px;
+  background-color: transparent;
+  padding: 10px;
+  border: 3px solid ;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.btn01{
+  margin-right: 2px;
+  padding: 10px;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.filterbtnA{
+  margin-right: 2px;
+  border-radius: 30px;
+  border: 3px solid var(--tag1color);
+  padding: 10px;
+  gap: 30px;
+  box-shadow: inset;
+  color: rgb(0, 0, 0);
+}
+
+.filterbtnS{
+  margin-right: 2px;
+  border: 3px solid var(--tag3color);  
+  padding: 10px;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.filterbtnM{
+  margin-right: 2px;
+  background-color:transparent;
+  border:3px solid var(--tag2color) ;  
+  padding: 10px;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+#itemWrapper{
+  padding: 10px;
+  gap: 20px;
+  display:block;
+
+}
+
+.tagsp{
+  font-family: 'AUTHENTIC Sans';
+  font-size: 1.4vw;
+  padding: 10px;
+}
+
+@media (max-width: 700px){
+
+  .btngrid{
+    display: grid;
+    grid-template-columns: 20% 20% 20% ; 
+    gap: 10px;
+    justify-content: center;
+
+  }
+  button{
+    font-family: 'AUTHENTIC Sans';
+    font-size: 10px;
+    background-color: transparent;
+    border: 2px solid ;
+    padding: 10px;
+    gap: 30px;
+    overflow-wrap: break-word;
+    color: rgb(0, 0, 0);
+
+  }
+  .filterbtnA{
+    margin-right: 2px;
+    border-radius: 30px;
+    border: 3px solid var(--tag1color);
+    padding: 5px;
+    gap: 15px;
+    box-shadow: inset;
+    color: rgb(0, 0, 0);
+  }
+
+  .filterbtnS{
+    margin-right: 2px;
+    border: 3px solid var(--tag3color);  
+    padding: 5px;
+    gap: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+  }
+
+  .filterbtnM{
+    margin-right: 2px;
+    background-color:transparent;
+    border:3px solid var(--tag2color);  
+    padding: 10px;
+    gap: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+  }
+
+  .tagsp{
+    font-family: 'AUTHENTIC Sans';
+    font-size: 15px;
+    padding: 10px;
+  }
+  
+}
