@@ -6,11 +6,14 @@
   
 @font-face {
     font-family: 'Ortica';
-    src: url(../Fonts/Ortica/web/Ortica-Light.woff) format('woff');
-    src: url(../Fonts/Ortica/web/Ortica-Light.woff2) format('woff2');
+    src: url("../Fonts/Ortica/Ortica-Light.otf") ;
+    src: url("../Fonts/Ortica/web/Ortica-Light.woff") format('woff');
+    src: url("../Fonts/Ortica/web/Ortica-Light.woff2") format('woff2');
+    
     font-family: 'Ortica-bold';
-    src: url(../Fonts/Ortica/web/Ortica-Bold.woff) format('woff');
-    src: url(../Fonts/Ortica/web/Ortica-Bold.woff2) format('woff2');
+    src: url("../Fonts/Ortica/Ortica-Bold.otf");
+    src: url("../Fonts/Ortica/web/Ortica-Bold.woff") format("woff");
+    src: url("../Fonts/Ortica/web/Ortica-Bold.woff2") format("woff2");
 
     font-family: 'AUTHENTIC Sans' ;
     src: url(../Fonts/authentic/AUTHENTICSans-130.otf);
