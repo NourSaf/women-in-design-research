@@ -1,6 +1,14 @@
+
 * {
   padding: 0px;
   margin: 0px;
+}
+
+
+@font-face {
+  font-family: 'Ortica';
+  src: url(../Fonts/Ortica/Ortica-Bold.otf);
+  src: url(../Fonts/Ortica/Ortica-Light.otf);
 }
 
 body{

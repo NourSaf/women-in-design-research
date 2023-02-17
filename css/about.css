@@ -2,7 +2,10 @@
 @import "./colors.css";
 @import "./sizes.css";
 
-
+@font-face {
+    font-family: 'subtitle';
+    src: url(../Fonts/authentic/AUTHENTICSans-60.otf)
+};
 
 .mainContainerabout{
     padding:100px 20px;
