@@ -18,6 +18,11 @@
     font-family: 'AUTHENTIC Sans' ;
     src: url(../Fonts/authentic/AUTHENTICSans-130.otf);
     
+    @font-face {
+  font-family: 'Ortica';
+  src: url(../Fonts/Ortica/Ortica-Bold.otf);
+  src: url(../Fonts/Ortica/Ortica-Light.otf);
+}
     }
   
 body{
