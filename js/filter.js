@@ -152,6 +152,8 @@ const mainfieldUniqueList = [...(new Set(designers.map((e) => e.mainfield)))];
 
 const itemWrapper = document.querySelector("#itemWrapper");
 const filterBtnContainer = document.querySelector("#filterbtn");
+const filterallBtnContainer = document.querySelector(".allbtn");
+
 const btngrid = document.querySelector(".btngrid");
 
 
@@ -172,87 +174,111 @@ buttonAll.addEventListener("click", (e) => {
 const allbtn = document.createElement("div");
 allbtn.classList.add("btn01");
 allbtn.appendChild(buttonAll);
-filterBtnContainer.appendChild(allbtn);
+filterallBtnContainer.appendChild(allbtn);
 
 
+const gridA = document.createElement("div");
+gridA.classList.add("gridA");
 
 for(let i = 0; i < activeperiodUniqueList.length; i++){
  
-  const button = document.createElement("button");
-  button.innerText = activeperiodUniqueList[i];
-  button.classList.add("filterbtnA");
+  const buttonA = document.createElement("button");
+  buttonA.innerText = activeperiodUniqueList[i];
+  buttonA.classList.add("filterbtnA");
 
-  button.addEventListener("click",(e) => {
+  buttonA.addEventListener("click",(e) => {
     onUnCliked();
-    //all btn reset
-    buttonAll.classList.add("unCliked");
-    buttonAll.classList.remove("cliked");
+    // //all btn reset
+    buttonAll.classList.add("unCliked")
+    buttonAll.classList.remove("cliked")
 
     // button event
-    button.classList.remove("unCliked");
-    button.classList.add("cliked");
+    buttonA.classList.remove("unCliked");
+    buttonA.classList.add("cliked");
 
     designerList = designers.filter((newE) => newE.activeperiod === e.target.innerText)
     itemBoxfuction()
   })
   
-  btngrid.appendChild(button);
+  gridA.appendChild(buttonA);
 }
- 
+btngrid.appendChild(gridA);
+
+const gridS = document.createElement("div");
+gridS.classList.add("gridS");
 
 for(let i = 0; i < specificationUniqueList.length; i++){
-  const button = document.createElement("button");
-  button.innerText = specificationUniqueList[i];
-  button.classList.add("filterbtnS");
+  const buttonS = document.createElement("button");
+  buttonS.innerText = specificationUniqueList[i];
+  buttonS.classList.add("filterbtnS");
 
-  button.addEventListener("click",(e) => {
+  buttonS.addEventListener("click",(e) => {
     onUnCliked();
     //all btn reset
     buttonAll.classList.add("unCliked")
     buttonAll.classList.remove("cliked")
 
     // button event
-    button.classList.remove("unCliked");
-    button.classList.add("cliked");
+    buttonS.classList.remove("unCliked");
+    buttonS.classList.add("cliked");
 
     designerList = designers.filter((newE) => newE.specification === e.target.innerText)
     itemBoxfuction()
   })
 
-  filterBtnContainer.appendChild(btngrid);
-  btngrid.appendChild(button);
+  // filterBtnContainer.appendChild(btngrid);
+  gridS.appendChild(buttonS);
 }
 
-for(let i = 0; i < mainfieldUniqueList.length; i++){
-  const button = document.createElement("button");
-  button.innerText = mainfieldUniqueList[i];
-  button.classList.add("filterbtnM")
+btngrid.appendChild(gridS);
 
-  button.addEventListener("click",(e) => {
+const gridM = document.createElement("div");
+gridM.classList.add("gridM");
+
+for(let i = 0; i < mainfieldUniqueList.length; i++){
+  const buttonM = document.createElement("button");
+  buttonM.innerText = mainfieldUniqueList[i];
+  buttonM.classList.add("filterbtnM")
+
+  buttonM.addEventListener("click",(e) => {
     onUnCliked();
+
     //all btn reset
     buttonAll.classList.add("unCliked");
     buttonAll.classList.remove("cliked");
 
     // button event
-    button.classList.remove("unCliked");
-    button.classList.add("cliked");
+    buttonM.classList.remove("unCliked");
+    buttonM.classList.add("cliked");
 
     designerList = designers.filter((newE) => newE.mainfield === e.target.innerText);
     itemBoxfuction()
   })
 
-  filterBtnContainer.appendChild(btngrid);
-  btngrid.appendChild(button);}
+  gridM.appendChild(buttonM);
+}
+
+btngrid.appendChild(gridM);
 
 // uncliked
 function onUnCliked(){
-  const buttons = document.querySelectorAll(".filterbtnI")
-  console.log(buttons);
+  const buttonsA = document.getElementsByClassName("filterbtnA")
+  const buttonsS = document.getElementsByClassName("filterbtnS")
+  const buttonsM = document.getElementsByClassName("filterbtnM")
 
-  for(let i = 0; i < buttons.length; i++){
-    buttons[i].classList.add("unCliked"); 
-    buttons[i].classList.remove("cliked");
+  for(let i = 0; i < buttonsA.length; i++){
+    buttonsA[i].classList.add("unCliked"); 
+    buttonsA[i].classList.remove("cliked");
+  }
+  
+  for(let i = 0; i < buttonsS.length; i++){
+    buttonsS[i].classList.add("unCliked"); 
+    buttonsS[i].classList.remove("cliked");
+  }
+
+  for(let i = 0; i < buttonsM.length; i++){
+    buttonsM[i].classList.add("unCliked"); 
+    buttonsM[i].classList.remove("cliked");
   }
 }
 
@@ -261,20 +287,36 @@ function onUnCliked(){
 function itemBoxfuction(){
   itemWrapper.innerHTML = "" //reset container
   for(let i = 0; i < designerList.length; i++){
+    
     //create Div
     const div = document.createElement("div");
-    const title = document.createElement("div");
-    const activeperiod = document.createElement("p");
-    activeperiod.classList.add("tagsp");
+    const title = document.createElement("p");
+    title.classList.add("titlep")
+    const activeperiod = document.createElement("button");
+    activeperiod.classList.add("tagbtn1");
     
+    const specification = document.createElement("button");
+    specification.classList.add("tagbtn3");
+
+    const mainfield = document.createElement("button");
+    mainfield.classList.add("tagbtn2");
+
     //title
     title.innerText = `${designerList[i].name}`;
-    activeperiod.innerText = `${designerList[i].activeperiod + "  " + designerList[i].specification + " " + designerList[i].mainfield}`;
+    activeperiod.innerText = `${designerList[i].activeperiod}`;
+    specification.innerText = `${designerList[i].specification}`;
+    mainfield.innerText = `${designerList[i].mainfield}`;
   
+    const subcontainer = document.createElement("div");
+    subcontainer.classList.add("subcontainer");
     //div
     div.classList.add("boxItem");
     div.appendChild(title);
-    div.appendChild(activeperiod);
+    div.appendChild(subcontainer);
+
+    subcontainer.appendChild(activeperiod);
+    subcontainer.appendChild(specification);
+    subcontainer.appendChild(mainfield);
     itemWrapper.appendChild(div);
   }
 }

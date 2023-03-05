@@ -2,13 +2,6 @@
 @import "./colors.css";
 @import "./sizes.css";
 
-@font-face {
-    font-family: 'subtitle';
-    src: url(../Fonts/authentic/AUTHENTICSans-60.otf);
-    font-family: 'lefttext';
-    src: url(../Fonts/authentic/AUTHENTICSans-90.otf);
-};
-
 
 .mainContainerde{
     padding-top:80px;
@@ -44,8 +37,8 @@
 
 .gridcontent-left{
     margin: 30px;
-    height:710px;
-    overflow: scroll;
+    height:auto;
+    /* overflow: scroll; */
 }
 
 .gridcontent-left::-webkit-scrollbar{
@@ -54,8 +47,8 @@
 
 .gridcontent-right{
     margin: 30px;
-    height:710px;
-    overflow: scroll;
+    height:auto;
+    /* overflow: scroll; */
 }
 
 .gridcontent-right::-webkit-scrollbar{
@@ -92,6 +85,7 @@ span{
 }
 
 .sources{
+    font-family: "subtitle";
     font-size: 15px;
 }
 
@@ -138,7 +132,7 @@ span{
 .right, .left{
     cursor: pointer;
     position: fixed;
-    top: 20%;
+    top: 24%;
     width: auto;
     margin-top: -30px;
     padding: 10px;
@@ -156,7 +150,7 @@ span{
 
 .deisgnerlist{
     text-align: center;
-    padding: 0px 25vw;
+    padding: 0px 25vw 20px 25vw;
 }
   
 .main1{
@@ -167,6 +161,9 @@ span{
 
 .namesnav{
     text-align: center;
+}
+.namesnav:hover{
+    cursor: pointer;
 }
 
 

@@ -81,7 +81,7 @@ const myslides = [
         tag2:   "Documentation",
         tag3:   "Botany",
 
-        intro:  "Anna Atkins received an unusually scientific education for a woman of her time. Atkins#8217;s father encouraged her interest in science. He was a member of the Royal Society and was friends with William Henry Fox Talbot, who invented photogenic drawings and calotypes. Atkins learned these directly from him. Some sources even say that Atkins can be considered the first female photographer. Atkins is best known for creating the first photobook that ever existed. Her book &#8220;Photographs of British Algae: Cyanotype Impressions&#8221; included 424 cyanotype photograms of British Algae and was self-published in 1843. Atkins#8217; book, which took her a decade to finish, can be seen as the first systematic application of photography to science.",
+        intro:  "Anna Atkins received an unusually scientific education for a woman of her time. Atkins&#8217;s father encouraged her interest in science. He was a member of the Royal Society and was friends with William Henry Fox Talbot, who invented photogenic drawings and calotypes. Atkins learned these directly from him. Some sources even say that Atkins can be considered the first female photographer. Atkins is best known for creating the first photobook that ever existed. Her book &#8220;Photographs of British Algae: Cyanotype Impressions&#8221; included 424 cyanotype photograms of British Algae and was self-published in 1843. Atkins&#8217; book, which took her a decade to finish, can be seen as the first systematic application of photography to science.",
         img1:  "../Imgs/Anna Atkins/AA_P01.jpeg",
         img2:  "../Imgs/Anna Atkins/AA_A01.jpeg",
         img3:  "../Imgs/Anna Atkins/AA_A02.jpeg",
@@ -157,7 +157,7 @@ const myslides = [
         tag2: "Design",
         tag3: "Cartography",
 
-        intro:  "Emma Willard was a leading feminist educator who believed girls should be as highly educated as boys. In 1819, after the New York State legislature had rejected her Plan for Improving Female Education, she finally convinced officials in the small town of Troy, New York, to finance the Troy Female Seminary: The first school for women#8217;s higher education in the United States.",
+        intro:  "Emma Willard was a leading feminist educator who believed girls should be as highly educated as boys. In 1819, after the New York State legislature had rejected her Plan for Improving Female Education, she finally convinced officials in the small town of Troy, New York, to finance the Troy Female Seminary: The first school for women&#8217;s higher education in the United States.",
         img1:  "../Imgs/Emma Willard/EW_P01.webp",
         img2:  "../Imgs/Emma Willard/EW_A01.webp",
         img3:  "../Imgs/Emma Willard/EW_A02.webp",
@@ -177,10 +177,10 @@ const myslides = [
         education01: "Education",
         education: "Her father encouraged her to study and would read philosophical essays to her. At the age of 13, she taught herself geometry. She eagerly attended the local district schools and the female academies in Hartford, Connecticut. After attending the Berlin Academy for two years, she started teaching there.",
         
-        interestingfacts01: "Interesting facts",
+        interestingfacts01: "",
         interestingfacts:   "",
         
-        awards01:           "Recognition",
+        awards01:           "",
         awards:             "",
 
         sources01:          "Sources",
@@ -212,7 +212,7 @@ const myslides = [
         mostknownfor:   'Modern and dynamic Data Visualisation. ',
         
         education01: "Education",
-        education:  "For her Bachelor#8217;s and Master#8217;s Degrees in Communication Design, Fragapane studied at Politecnico Di Milano in Italy.",
+        education:  "For her Bachelor&#8217;s and Master&#8217;s Degrees in Communication Design, Fragapane studied at Politecnico Di Milano in Italy.",
         
         interestingfacts01: "Interesting facts",
         interestingfacts:   "She almost got blind in her left eye due to a corneal infection, but luckily almost completely recovered her sight. This experience had an impact on her emotional approach to the practice of data visualization",
@@ -231,7 +231,7 @@ const myslides = [
         tag2: "Science",
         tag3: "Data Visualization",
 
-        intro: "Florence Nightingale revolutionized more than just the health system. She grew up wealthy with a high education. Because of that, her interest in data and statistics began at a young age. Despite her family#8217;s disapproval, she became a nurse at 24. She worked as a nurse in the British military barracks during the Crimean war. There was a shortage of medicine and poor sanitation. She turned to her passion for data and statistics to convey to political leaders the urgency for change. That#8217;s how she came up with the diagram which she is most well-known for: The nightingale chart. It was one of the first of its kind. She remains an icon in the field of information design.",
+        intro: "Florence Nightingale revolutionized more than just the health system. She grew up wealthy with a high education. Because of that, her interest in data and statistics began at a young age. Despite her family&#8217;s disapproval, she became a nurse at 24. She worked as a nurse in the British military barracks during the Crimean war. There was a shortage of medicine and poor sanitation. She turned to her passion for data and statistics to convey to political leaders the urgency for change. That&#8217;s how she came up with the diagram which she is most well-known for: The nightingale chart. It was one of the first of its kind. She remains an icon in the field of information design.",
         img1:  "../Imgs/Florence Nightingale/FN_P01.jpg",
         img2:  "../Imgs/Florence Nightingale/FN_A01.jpeg",
         img3:  "",
@@ -249,7 +249,7 @@ const myslides = [
         mostknownfor:       'Most people know Nightingale for pioneering modern nursing. In terms of information design, she is most known for creating the singular Diagram of the Causes of Mortality in the Army of the East. This kind of diagram is also often called the Nightingale Chart.',
         
         education01:        "Education",
-        education:          "Nightingale was lucky to get a good education for a woman of her time because of her wealthy background. She was homeschooled in history, philosophy, Italian, classical literature, and mathematics. At the age of 24, she decided to become a nurse despite her family#8217;s disapproval.",
+        education:          "Nightingale was lucky to get a good education for a woman of her time because of her wealthy background. She was homeschooled in history, philosophy, Italian, classical literature, and mathematics. At the age of 24, she decided to become a nurse despite her family&#8217;s disapproval.",
         
         interestingfacts01: "",
         interestingfacts:   "",
@@ -268,7 +268,7 @@ const myslides = [
         tag2: "Design",
         tag3: "Data Visualization",
 
-        intro:  "Born in Italy and now a partner at one of the most renowned design firms, Pentagram, Giorgia Lupi#8217;s work is no stranger inside the field of information design. She embraces complexity, deals with giant data sets, and turns them into simple yet beautiful graphics. However, that's not all. There is a side of data that Lupi is raising awareness of, and that is the &#8220;human&#8221 side of it. Can data be human? That is the devotion of Lupi to uncover stories, always sneak in more context, and convey emotions within the complexity. One of her most famous works, &#8220;Dear Data,&#8221 perfectly captures how we can look at data through a different human lens.",
+        intro:  "Born in Italy and now a partner at one of the most renowned design firms, Pentagram, Giorgia Lupi&#8217;s work is no stranger inside the field of information design. She embraces complexity, deals with giant data sets, and turns them into simple yet beautiful graphics. However, that's not all. There is a side of data that Lupi is raising awareness of, and that is the &#8220;human&#8221 side of it. Can data be human? That is the devotion of Lupi to uncover stories, always sneak in more context, and convey emotions within the complexity. One of her most famous works, &#8220;Dear Data,&#8221 perfectly captures how we can look at data through a different human lens.",
         img1:  "../Imgs/giorgia_lupi + susan_kare/giorgia_lupi.jpeg",
         img2:  "../Imgs/giorgia_lupi + susan_kare/goirgialupi.jpeg",
         img3:  "",
@@ -286,13 +286,13 @@ const myslides = [
         mostknownfor:       "Project &#8220;Dear Data&#8221; and popularized the term &#8220;Data Humanism&#8221;.",
         
         education01:        "Education",
-        education:          "Lupi studied and graduated with a Bachelor#8217;s and a Master of Architecture at FAF university in Ferrera. She focused on maps, blueprints, and overall architectural navigation during her studies.",
+        education:          "Lupi studied and graduated with a Bachelor&#8217;s and a Master of Architecture at FAF university in Ferrera. She focused on maps, blueprints, and overall architectural navigation during her studies.",
         
         interestingfacts01: "Interesting facts",
         interestingfacts:   "She loves to take a long walk every day, which is non-negotiable. As a child, she loved collecting and organizing things into folders. That became the main drive and inspiration for her later works. She designed a collection for a fashion brand &#8220;& Other Stories.&#8221;",
         
         awards01:           "Recognition",
-        awards:             "One of &#8220;Fast Company#8217;s&#8221; 100 Most Creative People in Business, 2018. <br>Fellow of the Royal Society of Art and a National Geographic explorer. National Design Award for Communication Design, 2022.",
+        awards:             "One of &#8220;Fast Company&#8217;s&#8221; 100 Most Creative People in Business, 2018. <br>Fellow of the Royal Society of Art and a National Geographic explorer. National Design Award for Communication Design, 2022.",
 
         sources01:          "Sources",
         sources:            "<a href='https://www.newyorker.com/culture/culture-desk/can-data-be-human-the-work-of-giorgia-lupi'>Can Data Be Human? The Work of Giorgia Lupi (newyorker.com)</a> <br> <a href='https://www.getharvest.com/time-well-spent/giorgia-lupi'> Giorgia Lupi Interview: Time well spent (getharvest.com) </a>",
@@ -305,7 +305,7 @@ const myslides = [
         tag2: "Design",
         tag3: "Visual Systems",
 
-        intro:  "In the 1950s, the United States#8217; demand for new public airport infrastructures grew, which was the perfect opportunity for Jane Davis Doggett – an Architecture and Graphics Design graduate from Yale. In 1959 she became part of the graphics team of Memphis International Airport#8217;s development. She convinced the architects to integrate the wayfinding graphics and signs she developed into the architectural structure. Her wholesome design concept opened the door for many airport projects after that. She designed and trademarked her typeface, introduced color and alphabetical coding for airport terminals, and established a stringed use of logos to support better wayfinding. Also, she was the first to expand her wayfinding concepts to highway signs around airports. Besides 40 international airport projects, she also worked on hospitals, sports arenas, universities, and subway systems. Her ideas and pioneer thinking are still guiding ways for millions of people today.",
+        intro:  "In the 1950s, the United States&#8217; demand for new public airport infrastructures grew, which was the perfect opportunity for Jane Davis Doggett – an Architecture and Graphics Design graduate from Yale. In 1959 she became part of the graphics team of Memphis International Airport&#8217;s development. She convinced the architects to integrate the wayfinding graphics and signs she developed into the architectural structure. Her wholesome design concept opened the door for many airport projects after that. She designed and trademarked her typeface, introduced color and alphabetical coding for airport terminals, and established a stringed use of logos to support better wayfinding. Also, she was the first to expand her wayfinding concepts to highway signs around airports. Besides 40 international airport projects, she also worked on hospitals, sports arenas, universities, and subway systems. Her ideas and pioneer thinking are still guiding ways for millions of people today.",
         img1:  "../Imgs/Jane Davis Doggett/JD_P01.jpeg",
         img2:  "../Imgs/Jane Davis Doggett/JD_A01.jpeg",
         img3:  "../Imgs/Jane Davis Doggett/JD_A02.jpeg",
@@ -323,7 +323,7 @@ const myslides = [
         mostknownfor:       'Integral wayfinding systems for mass public complexes like airports.',
         
         education01:        "Education",
-        education:          "In 1956, Davis Doggett graduated from Yale University School of Art and Architecture in New Haven, Connecticut, with a Master#8217;s Degree in Architecture and Graphic Design.",
+        education:          "In 1956, Davis Doggett graduated from Yale University School of Art and Architecture in New Haven, Connecticut, with a Master&#8217;s Degree in Architecture and Graphic Design.",
         
         interestingfacts01: "Interesting facts",
         interestingfacts:   "She was an early student of Josef Albers, an influential abstract painter, while attending Yale University, which is seen in her use of color.",
@@ -360,7 +360,7 @@ const myslides = [
         mostknownfor:      "Conditional Design. It focuses on designing conditions and rules of play that invite collaboration within a &#8220;regulated&#8221 process towards an unpredictable design or result.",
         
         education01:        "Education",
-        education:          "Maurer graduated with the Master#8217;s of Fine Arts at the Sandberg Institute, Amsterdam in 2002.",
+        education:          "Maurer graduated with the Master&#8217;s of Fine Arts at the Sandberg Institute, Amsterdam in 2002.",
         
         interestingfacts01: "",
         interestingfacts:   "",
@@ -471,14 +471,14 @@ const myslides = [
         mostknownfor:       'Creating the first scientific map of the Atlantic Ocean floor, in collaboration with Bruce Heezen.',
         
         education01:        "Education",
-        education:          "Ohio University bachelor#8217;s degrees in English and music, 1943. University of Michigan, Ann Arbor#8217;s petroleum geology program, master#8217;s degree, 1944.",
+        education:          "Ohio University bachelor&#8217;s degrees in English and music, 1943. University of Michigan, Ann Arbor&#8217;s petroleum geology program, master&#8217;s degree, 1944.",
         
         
         interestingfacts01: "Interesting facts",
-        interestingfacts:   "In the first 18 years of her work, Tharp couldn#8217;t collect data independently since women were barred from working on ships due to superstitions.",
+        interestingfacts:   "In the first 18 years of her work, Tharp couldn&#8217;t collect data independently since women were barred from working on ships due to superstitions.",
         
         awards01:           "Recognition",
-        awards:             "National Geographic Society#8217;s Hubbard Medal. <br> Society of Woman Geographers Outstanding Achievement Award. <br>WWoods Hole Oceanographic Institution#8217;s Mary Sears Woman Pioneer in Oceanography Award.<br> Lamont-Doherty Earth Observatory Heritage Award. <br>Google Doodle honouring Tharp<br>Marie Tharp Fellowship",
+        awards:             "National Geographic Society&#8217;s Hubbard Medal. <br> Society of Woman Geographers Outstanding Achievement Award. <br>WWoods Hole Oceanographic Institution&#8217;s Mary Sears Woman Pioneer in Oceanography Award.<br> Lamont-Doherty Earth Observatory Heritage Award. <br>Google Doodle honouring Tharp<br>Marie Tharp Fellowship",
 
         sources01:          "Sources",
         sources:            "<a href='https://www.google.com/doodles/celebrating-marie-tharp'> Google Doodle (google.com)</a> <a href='https://marietharp.ldeo.columbia.edu/about-marie-tharp'> About Marie Tharp (columbia.edu)</a> ",
@@ -491,7 +491,7 @@ const myslides = [
         tag2: "Design",
         tag3: "Technology",
 
-        intro:  "Muriel Cooper was a graphic designer focused on the relationship between graphics and technology – she was one of the first designers to use a computer and taught many of today#8217;s most gifted software designers. With her &#8220;Information Landscape Project&#8221; in 1994, Cooper explored the digital space and faced the challenges of designing and visualizing complex information in a three-dimensional space: She gave the graphic interface a dynamic vision and added a whole new layer of depth to data visualization. She worked for over 40 years at the publishing house MIT Press and helped to produce more than 500 books. One of her most known works is the MIT Press logo. She died in 1994 at the age of 68 after a sudden heart attack.",
+        intro:  "Muriel Cooper was a graphic designer focused on the relationship between graphics and technology – she was one of the first designers to use a computer and taught many of today&#8217;s most gifted software designers. With her &#8220;Information Landscape Project&#8221; in 1994, Cooper explored the digital space and faced the challenges of designing and visualizing complex information in a three-dimensional space: She gave the graphic interface a dynamic vision and added a whole new layer of depth to data visualization. She worked for over 40 years at the publishing house MIT Press and helped to produce more than 500 books. One of her most known works is the MIT Press logo. She died in 1994 at the age of 68 after a sudden heart attack.",
         img1:  "../Imgs/Muriel Cooper/1.jpeg",
         img2:  "../Imgs/Muriel Cooper/2.jpg",
         img3:  "../Imgs/Muriel Cooper/3.jpg",
@@ -548,10 +548,10 @@ const myslides = [
         education01:        "Education",
         education:          "Studies in the field of art history and cultural theory, Berlin and Amsterdam.",
         
-        interestingfacts01: "Interesting facts",
+        interestingfacts01: "",
         interestingfacts:   "",
         
-        awards01:           "Recognition",
+        awards01:           "",
         awards:             "",
 
         sources01:          "Sources",
@@ -565,7 +565,7 @@ const myslides = [
         tag2:   "Design",
         tag3:   "Data Visualization",
 
-        intro:  "Stefanie Posavec#8217;s beginning in Data Visualization first started when she was helping her father with keeping baseball scorecards during the summers. The interest in gathering data carried on, and she eventually extended and used it as part of her design process. She often engages with data through analog means. It has become an integral part of her work that she enjoys. Stefanie works and aims to present data as not just legible but also memorable and expressive to the audience.",
+        intro:  "Stefanie Posavec&#8217;s beginning in Data Visualization first started when she was helping her father with keeping baseball scorecards during the summers. The interest in gathering data carried on, and she eventually extended and used it as part of her design process. She often engages with data through analog means. It has become an integral part of her work that she enjoys. Stefanie works and aims to present data as not just legible but also memorable and expressive to the audience.",
         img1:  "",
         img2:  "",
         img3:  "",
@@ -583,10 +583,10 @@ const myslides = [
         mostknownfor:       'Dear Data, a project in collaboration with Giorgia Lupi.',
         
         education01:        "Education",
-        education:          "Posavec first studied at Colorado State University for her Bachelor#8217;s of Fine Arts in Graphic Design. Afterwards, she graduated with her Master#8217;s of Arts in Communications Design at Central Saint Martins College of Art and Design at the University of the Arts in London.",
+        education:          "Posavec first studied at Colorado State University for her Bachelor&#8217;s of Fine Arts in Graphic Design. Afterwards, she graduated with her Master&#8217;s of Arts in Communications Design at Central Saint Martins College of Art and Design at the University of the Arts in London.",
         
         interestingfacts01: "Interesting facts",
-        interestingfacts:   "In 2010, Posavec helped design and collect data for the cover art featured on OK Go#8217;s album &#8220;Of the Blue Colour of the Sky.&#8221; As Facebook#8217;s first Data Artist in Residence she converted a month of a couple#8217;s Facebook interaction data into dance steps.",
+        interestingfacts:   "In 2010, Posavec helped design and collect data for the cover art featured on OK Go&#8217;s album &#8220;Of the Blue Colour of the Sky.&#8221; As Facebook&#8217;s first Data Artist in Residence she converted a month of a couple&#8217;s Facebook interaction data into dance steps.",
         
         awards01:           "Recognition",
         awards:             "Information is Beautiful Award, 2015 (Dear Data). <br> Exhibited work at various museums and art houses, including the Museum of Modern Art (MoMA) in New York, the Centro Cultural Banco do Brasil in Rio de Janeiro, the Science Gallery in Dublin, and the Victoria and Albert Museum in London.",
@@ -602,7 +602,7 @@ const myslides = [
         tag2: "Design",
         tag3: "Visual Systems",
 
-        intro:  "The first ever Macintosh was introduced on January 24, 1984. People were awed. The user interface lit up by pressing the button, and what came after was history. The Macintosh logo on the first user interface was Susan Kare#8217;s work. Known as &#8220;the woman who gave the Macintosh a smile,&#8221; she is a legend and a pioneer in pixelated graphics. Her grid system begins the entire typeface, icons, and logo, giving the Mac its distinctive look and feel. Drawing inspiration from embroidery and analog handwork, Kare proves her creativity to a specific medium. Many of Kare#8217;s icons are still present on today#8217;s Mac, proving the timelessness of her design approach.",
+        intro:  "The first ever Macintosh was introduced on January 24, 1984. People were awed. The user interface lit up by pressing the button, and what came after was history. The Macintosh logo on the first user interface was Susan Kare&#8217;s work. Known as &#8220;the woman who gave the Macintosh a smile,&#8221; she is a legend and a pioneer in pixelated graphics. Her grid system begins the entire typeface, icons, and logo, giving the Mac its distinctive look and feel. Drawing inspiration from embroidery and analog handwork, Kare proves her creativity to a specific medium. Many of Kare&#8217;s icons are still present on today&#8217;s Mac, proving the timelessness of her design approach.",
         img1:  "../Imgs/giorgia_lupi + susan_kare/1.jpeg",
         img2:  "../Imgs/giorgia_lupi + susan_kare/2.png",
         img3:  "",
@@ -620,10 +620,10 @@ const myslides = [
         mostknownfor:       'Designing the first User Interface for Macintosh.',
         
         education01:        "Education",
-        education:          "In 1975, Kare graduated from Mount Holyoke College with her  Bachelor#8217;s of Honors, summa cum laude, in Arts.",
+        education:          "In 1975, Kare graduated from Mount Holyoke College with her  Bachelor&#8217;s of Honors, summa cum laude, in Arts.",
         
         interestingfacts01: "Interesting facts",
-        interestingfacts:   "Quote by Kare: &#8220;It#8217;s literal and metaphorical: the best surfer in the water is the one having the most fun.&#8221;",
+        interestingfacts:   "Quote by Kare: &#8220;It&#8217;s literal and metaphorical: the best surfer in the water is the one having the most fun.&#8221;",
         
         awards01:           "Recognition",
         awards:             "National Design Award for Lifetime Achievement, 2019.",
@@ -639,7 +639,7 @@ const myslides = [
         tag2: "Design",
         tag3: "Visual Systems",
         
-        intro:  "Harris was born in Richmond, Virginia during 1953. As she grew she experienced racism and attended a desegregated high school. Harris has stated that she remembers her mother shouting from her car at the Ku Klux Klan while they were displaying on the street. Her father coached women#8217;s sports, and her mother was an art teacher and artist. After graduating from her Master#8217;s in Fine Arts, she eventually married her husband Gary Singer, with whom she had one daughter, Thai. <br> Harris was the creative director behind the design of the 2000 Census for the United States Census Bureau. The goal of the 1998 user-centred form redesign was to encourage Americans, including those who were previously underrepresented citizens, to participate, Harris believed that this is an important project, that#8217;s why she accepted to take over.",
+        intro:  "Harris was born in Richmond, Virginia during 1953. As she grew she experienced racism and attended a desegregated high school. Harris has stated that she remembers her mother shouting from her car at the Ku Klux Klan while they were displaying on the street. Her father coached women&#8217;s sports, and her mother was an art teacher and artist. After graduating from her Master&#8217;s in Fine Arts, she eventually married her husband Gary Singer, with whom she had one daughter, Thai. <br> Harris was the creative director behind the design of the 2000 Census for the United States Census Bureau. The goal of the 1998 user-centred form redesign was to encourage Americans, including those who were previously underrepresented citizens, to participate, Harris believed that this is an important project, that&#8217;s why she accepted to take over.",
         img1:  "../Imgs/Sylvia Harris/1.jpeg",
         img2:  "",
         img3:  "",
@@ -659,7 +659,7 @@ const myslides = [
         education01:        "Education",
         education:          "After graduating high school Harris went on to attend Virginia Commonwealth University, where she graduated with a BFA in communication art and design in 1975. Harris attended graduate school at the Yale School of Art, where she graduated with an MFA in 1980.",
         
-        interestingfacts01: "Interesting facts",
+        interestingfacts01: "",
         interestingfacts:   "",
         
         awards01:           "Recognition",

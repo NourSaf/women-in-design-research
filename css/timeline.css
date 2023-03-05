@@ -1,15 +1,8 @@
-
 * {
   padding: 0px;
   margin: 0px;
 }
 
-
-@font-face {
-  font-family: 'Ortica';
-  src: url(../Fonts/Ortica/Ortica-Bold.otf);
-  src: url(../Fonts/Ortica/Ortica-Light.otf);
-}
 
 body{
   background-color: #FAF8EE;
@@ -19,8 +12,7 @@ body{
 .timelinemain1{
   height: 100%;
   width: auto;
-  padding-top: 90px;
-  padding-left: 100px;
+  padding: 90px;
 }
 
 .timelinemain2{
@@ -33,17 +25,16 @@ body{
 }
 
 
-
-
 .headerabout{
   font-family:"Ortica";
-  font-size: 50px;
+  font-size: 20px;
   position: fixed;
 }
 
 .btns{
   display:block;
-  padding-top:20px;
+  padding:20px;
+  height: 80%;
 
 }
 
@@ -63,6 +54,7 @@ body{
   margin-top: 100px;
 
 }
+
 .tagabout{
 position: fixed;
 border:3px solid var(--tag2color) ;

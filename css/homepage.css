@@ -2,33 +2,7 @@
 @import "./sizes.css";
 @import"./global.css";
 
-
-@font-face {
-  font-family: "Ortica";
-  src: 
-  url("../Fonts/Ortica/web/Ortica-Light.woff") format('woff'),
-  url("../Fonts/Ortica/web/Ortica-Light.woff2") format('woff2');
-}
-
-
-@font-face{
-  
-  font-family: 'Ortica-bold';
-  src:
-  url("../Fonts/Ortica/web/Ortica-Bold.woff") format("woff"),
-  url("../Fonts/Ortica/web/Ortica-Bold.woff2") format("woff2"); 
-  }
-
-
-
-@font-face{
-
-  font-family: 'AUTHENTIC Sans' ;
-    src: url(../Fonts/authentic/AUTHENTICSans-130.otf);
-}
-
-
-  .bgimg{
+.bgimg{
   position: fixed;
 }
 
@@ -39,11 +13,11 @@
 }
 
 .slideshow-container {
-  position: relative;
-  top:30%;
-  left:-5%;
+  position: fixed;
+  top:50%;
+  left:50%;
   width: 100vw;
-  /* transform: translate(-50%,-50%); */
+  transform: translate(-50%,-50%);
 }
 
 .mySlides {
@@ -51,7 +25,7 @@
   width: auto;
   height : auto;
   display: none;
-  padding: 185px ;
+  padding: 100px;
 }
 
 .designerP{
@@ -63,24 +37,29 @@
 .designerP .question{
   font-family: 'Ortica-bold';
 }
+
 .designerP .answer{
   font-family: 'Ortica-bold';
 }
 
 .designerP .answer{
   display: none;
+  cursor: ne-resize;
+
 }
 
 .qaWrapper:hover .question{
   display: none;
+  cursor: ne-resize;
 }
 
 .qaWrapper:hover .answer{
   display: inline;
+  cursor: ne-resize;
+
 }
 
 .prev, .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -88,13 +67,18 @@
   padding: 16px;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   user-select: none;
 }
 
 .next{
   position: absolute;
   right: 5px;
+  cursor: e-resize;
+}
+
+.prev{
+  cursor: w-resize ;
 }
 
 .tag1btn{
@@ -128,7 +112,14 @@
   margin-left: 5px;
   margin-right: 5px;
   color: rgb(0, 0, 0);
+  
 }
+.tag1btn:hover, .tag2btn:hover, .tag3btn:hover{
+  cursor: default;
+}
+
+
+
 
 @media (max-width: 700px) {
 
@@ -159,16 +150,18 @@
 
 
 }
+
   .slideshow-container {
-  position: fixed;
-  top:130px;
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 100vw;
+    position: fixed;
+    top:50%;
+    left:50%;
+    width: 95vw;
+    transform: translate(-50%,-50%);
 }
+
   .designerP{
     font-family: 'Ortica';
-    font-size: 35px ;
+    font-size: 40px ;
     
   }
   .designerP .question{
