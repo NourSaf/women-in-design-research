@@ -11,14 +11,3 @@ navbar2.addEventListener("click", () => {
         navbar2.style.textDecoration = "underline";
         
     })
-
-    // navbar2.addEventListener("click", () => {
-    //     for (let e = 0; e < navbar.length; e++){
-    //         console.log(e);
-    //         navbar2[e].classList.add = "active";
-
-    //     }
-    //     navbar2[e].classList.remove = "active";
-        
-    // })
-
